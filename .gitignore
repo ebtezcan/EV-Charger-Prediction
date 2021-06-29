@@ -123,3 +123,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Documents for Reference Only
+index_OSEMN_plus_mvp.ipynb
+index_OSEMN_plus_mvp.ipynb
+data/title_transactions.csv
