@@ -128,3 +128,7 @@ dmypy.json
 index_OSEMN_plus_mvp.ipynb
 index_OSEMN_plus_mvp.ipynb
 data/title_transactions.csv
+working notebooks/index_OSEMN.ipynb
+data/ev_counts_by_county.csv
+data/all_ev_counts_by_county.csv
+working notebooks/index_OSEMN.ipynb
