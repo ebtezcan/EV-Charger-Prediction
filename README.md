@@ -4,6 +4,8 @@ Image from: https://energytransition.org/wp-content/uploads/2017/11/Charging_sta
 
 &nbsp;
 
+**For Tableau Dashboard** [click here](https://public.tableau.com/views/ElectricVehiclePredictionsandExistingChargingInfrastructureinWashingtonState/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+
 ## Introduction
 
 Climate change, including concerns about rising greenhouse gas emissions, has become an increasingly pressing concern among officials in the United States and around the world over the past several years. According to the U.S. Environmental Protection Agency (EPA), "greenhouse gas (GHG) emissions from transportation account for about 29 percent of total U.S. greenhouse gas emissions, making it the largest contributor of U.S. GHG emissions."[¹](https://www.epa.gov/transportation-air-pollution-and-climate-change/carbon-pollution-transportation) In light of these findings and the research being conducted around this issue, President Joe Biden and his administration are working on passing a [bipartisan infrastructure deal](https://www.whitehouse.gov/briefing-room/statements-releases/2021/06/24/fact-sheet-president-biden-announces-support-for-the-bipartisan-infrastructure-framework/) that would prioritize clean energy and support the development of a nationwide network of electric vehicle chargers.
