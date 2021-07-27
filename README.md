@@ -6,7 +6,7 @@ Image from: https://energytransition.org/wp-content/uploads/2017/11/Charging_sta
 
 **For Tableau Dashboard** [click here](https://public.tableau.com/views/ElectricVehiclePredictionsandExistingChargingInfrastructureinWashingtonState/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
-<img src='images/dashboard_screenshot_072721.png'>
+<img src='images/dashboard_screenshot_072721.PNG'>
 
 &nbsp;
 ## Introduction
