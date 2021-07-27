@@ -6,21 +6,31 @@ Image from: https://energytransition.org/wp-content/uploads/2017/11/Charging_sta
 
 **For Tableau Dashboard** [click here](https://public.tableau.com/views/ElectricVehiclePredictionsandExistingChargingInfrastructureinWashingtonState/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
+<img src='images/dashboard_screenshot_072721.png'>
+
+&nbsp;
 ## Introduction
 
+### Market at a Glance
 Climate change, including concerns about rising greenhouse gas emissions, has become an increasingly pressing concern among officials in the United States and around the world over the past several years. According to the U.S. Environmental Protection Agency (EPA), "greenhouse gas (GHG) emissions from transportation account for about 29 percent of total U.S. greenhouse gas emissions, making it the largest contributor of U.S. GHG emissions."[¹](https://www.epa.gov/transportation-air-pollution-and-climate-change/carbon-pollution-transportation) In light of these findings and the research being conducted around this issue, President Joe Biden and his administration are working on passing a [bipartisan infrastructure deal](https://www.whitehouse.gov/briefing-room/statements-releases/2021/06/24/fact-sheet-president-biden-announces-support-for-the-bipartisan-infrastructure-framework/) that would prioritize clean energy and support the development of a nationwide network of electric vehicle chargers.
 
 In addition to large scale policy proposals at the national level, some states are also taking action on their own. For example, both California and Washington are working towards mandating electric vehicles by 2035 and 2030 respectively in an effort to phase out vehicles that use gasoline. Furthermore, within the private sector, several major car manufacturers (such as Ford, GM, Volvo, etc.) have [announced](https://www.caranddriver.com/news/g35562831/ev-plans-automakers-timeline/) that they will be going fully electric in the next decade, which would prove to be a significant change in the auto industry. Taken together, if implemented, these changes in both the public and private sectors would cause a massive increase in demand for electric vehicles (EVs). The question is: how will the current charging infrastructure of these states support an influx in demand for new EVs? 
 
+### Business Case
 To be able to achieve a fully electric future and keep up with the demand for chargers, the charging infrastructure has to be expanded. Therefore, the Washington Department of Transportation is planning to spend $8 million on charging infrastructure projects between July 1st, 2021 and June 30, 2023[²](https://wsdot.wa.gov/business/innovative-partnerships/zero-emission-vehicle-infrastructure-partnerships). This is a great business opportunity for EV charging companies. By investing in Washington state, not only would these companies be eligible for government funding, but they would also put themselves in a profitable position as the demand for chargers continues to increase over the coming years. 
 
-In order to position these chargers strategically, it is vital to model and predict the demand for electric vehicles in each county in Washington. In an effort to find counties that will have the most demand with the least amount of chargers, this analysis focuses on time series modeling of the amount of electric vehicles in the top 10 counties within Washington with the most purchases of new electric vehicles. 
+### Business Problem & Goal
+In order to position these chargers strategically, it is vital to model and predict the demand for electric vehicles in each county in Washington. In an effort to find counties that will have the most demand with the least amount of chargers, this analysis focuses on time series modeling of the amount of electric vehicles in the top 10 counties within Washington with the most purchases of new electric vehicles. Our goal was to recommend top 3 counties to invest in.
+
+&nbsp;
 
 ## Data
 
 We used Washington State's API to collect [electric vehicle title and registration activity data](https://data.wa.gov/Transportation/Electric-Vehicle-Title-and-Registration-Activity/rpr4-cgyd) which included a total of 433,172 transactions (91,255 new vehicle transactions). 
 
 Additionally, to be able to compare future EV demand to existing charging infrastructure, we used National Renewable Energy Laboratory's API. The [current charging station data](https://developer.nrel.gov/docs/transportation/alt-fuel-stations-v1/all/) we received from this API had 1,686 charging stations for the state of Washington.
+
+&nbsp;
 
 ## Method
 
