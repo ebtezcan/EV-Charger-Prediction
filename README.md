@@ -1,6 +1,7 @@
 # Leading the Charge: Predicting the Demand for Electric Vehicles and Chargers in Washington State
 <img src='images/ev parking only.jpg'>
-Image from: https://energytransition.org/wp-content/uploads/2017/11/Charging_station_MIA_09_2017_5954.jpg
+
+> Image from: https://energytransition.org/wp-content/uploads/2017/11/Charging_station_MIA_09_2017_5954.jpg
 
 &nbsp;
 
